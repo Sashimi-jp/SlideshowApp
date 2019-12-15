@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let image = UIImage(named: "image1")
+        let image = UIImage(named: "image1.jpg")
         imageView.image = image
         
     }
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     //// 表示している画像の番号を元に画像を表示する
     
     var displayImageNo = 0
-    var imageNameArray = ["image1","image2","image3"]
+    var imageNameArray = ["image1.jpg","image2.jpg","image3.jpg"]
         
     func displayImage(){
         let name = imageNameArray[displayImageNo]
